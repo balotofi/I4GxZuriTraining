@@ -3,5 +3,13 @@ play_options = {
     P: "paper", 
     S: "scissors"}
 
+def user_play_rps(user_input):
+    if user_input = input("Type youy play [R, P, S]:")
 
-if __name__ == __main__:
+def cpu_play_rps():
+    
+
+
+
+if __name__ == main:
+    run __name__
