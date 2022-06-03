@@ -12,6 +12,6 @@ Tasks:
   
   - [ ] Rock, Paper, Scissor game
   
-  - [ ] Finding anagrams (unsubmitted)
+  - [ ] Finding anagrams
   
   - [ ] Reading text files (unsubmitted)
