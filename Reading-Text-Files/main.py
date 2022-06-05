@@ -6,7 +6,7 @@
 def read_file_content(filename):
     # [assignment] Add your code here
     with open(f"{filename}") as f:
-    lines = f.readlines
+    lines = f.readlines()
     return lines
     #return "Hello World"
 
@@ -14,6 +14,10 @@ def read_file_content(filename):
 def count_words():
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
+    word_bank = []
     for word in lines:
+        word_bank.append(word)
+        if word.count....
+
 
     return {"as": 10, "would": 20}
