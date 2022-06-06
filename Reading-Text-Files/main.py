@@ -5,19 +5,23 @@
 
 def read_file_content(filename):
     # [assignment] Add your code here
-    with open(f"{filename}") as f:
-    lines = f.readlines()
-    return lines
-    #return "Hello World"
+    read = open(f"{filename}.txt", "r")
+    return read
 
 
 def count_words():
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
-    word_bank = []
-    for word in lines:
-        word_bank.append(word)
-        if word.count....
+    word_bank = dict()
+    for line in text:
+	    line = line.strip()
+	    line = line.lower()
+	    words = line.split(" ")
+	    for word in words:
+		    if word in word_bank:
+			    word_bank[word] = word_bank[word] + 1
+		    else:
+			    word_bank[word] = 1
 
-
-    return {"as": 10, "would": 20}
+    for key in list(word_bank.keys()):
+	    print(key, ":", word_bank[key])
