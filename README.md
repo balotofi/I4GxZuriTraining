@@ -14,6 +14,6 @@ Tasks:
   
   - [ ] Finding anagrams
   
-  - [ ] Reading text files (unsubmitted)
+  - [ ] Reading text files
 
   - [ ] Next task
