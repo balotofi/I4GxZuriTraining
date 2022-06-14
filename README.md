@@ -16,4 +16,6 @@ Tasks:
   
   - [ ] Reading text files
 
-  - [ ] Django models
+  - [ ] Django model
+
+  - [ ] next task
